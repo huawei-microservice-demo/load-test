@@ -4,12 +4,12 @@
 #
 #####################################################################
 ARGS="$@"
-HOST="${1}"
+HOST="$URL"
 SCRIPT_NAME=`basename "$0"`
 INITIAL_DELAY=1
 TARGET_HOST="$HOST"
-CLIENTS=2
-REQUESTS=10
+CLIENTS="$USERS"
+REQUESTS="$COUNT"
 
 
 do_check() {
